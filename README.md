@@ -12,5 +12,5 @@
 
  - [Terraform-Provider-Cloudlab](https://github.com/csc478-wcu/terraform-provider-cloudlab)
  - [PortalCTL](https://github.com/csc478-wcu/portalctl)
- - [CC2-Cluster]([url](https://github.com/csc478-wcu/cc2-cluster)
+ - [CC2-Cluster](https://github.com/csc478-wcu/cc2-cluster)
 
