@@ -3,10 +3,12 @@
 
 
 ## Group Members: 
- - Tyler Geiger
- - Kadin Matotek 
  - Edwin Biswas
  - Alex Cooper
+ - Tyler Geiger
+ - Kadin Matotek 
+ 
+ 
 
 ## Repositories:
 
