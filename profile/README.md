@@ -20,12 +20,4 @@
  - [CC2-Cluster](https://github.com/csc478-wcu/cc2-cluster)
    - CI/CD Pipeline (Ansible + Terraform) for initializing nodes & helm charts
    - Helm Charts
-   ```mermaid
-   flowchart LR
-    A[Workflow Dispatch<br/>GitHub Actions Trigger] --> B[Terraform Apply<br/>Provision CloudLab nodes]
-    B --> C[Terraform Outputs<br/>nodes_json, ssh_user, IPs]
-    C --> D[Ansible SSH<br/>Bootstrap Cluster]
-    D --> E[Set up kubeadm<br/>Init + Join Nodes]
-    E --> F[Deploy MetalLB<br/>Configure IP Pools]
-    F --> G[Deploy Helm Charts<br/>Ingress-NGINX, ExternalDNS, Apps]
-    ```
+<img width="3840" height="209" alt="Untitled diagram _ Mermaid Chart-2025-09-25-193645" src="https://github.com/user-attachments/assets/5ab0f8a6-31f3-4111-b861-6ddf59fa2794" />
